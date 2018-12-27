@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+
+/********** main.html **********/
+
+header {
+	font-size: 40px;
+	font-weight: bold;
+	width: 1000px;
+	text-align: left;
+	margin: auto;
+	margin-top: 100px;
+	clear:both;
+}
+
+header .logo {
+	/* border: 1px solid black; */
+	margin-left: 20px;
+}
+
+header div {
+	display: inline;
+}
+
+header .LoginOrJoin {
+	float: right;
+	margin-right: 45px;
+}
+
+header .LoginOrJoin > .login, .join{
+	display:inline;
+	text-align: left;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
+
+#wrap {
+	width:1000px;
+	
+	overflow: auto;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+
+.middle, .right {
+	float: left;
+	margin-top: 30px;
+}
+
+.left {
+	width: 100%;
+	background-color: #e6b802;
+	overflow: auto;
+	height: 50px;
+}
+
+.left div{
+	display: inline;
+	float: right;
+	margin-top: 13px;
+	margin-right: 50px;
+}
+
+.left ul {
+	text-align: right;
+	
+	
+}
+
+.middle {
+	width: 70%;
+	height: 700px;
+
+}
+
+.middle h2{
+	position: relative;
+	text-align: center;
+}
+
+.middle .board {
+	border: 1px solid black;
+	width: 500px;
+	height:200px;
+	margin: auto;
+	clear:both;
+	
+}
+
+.middle .board .contentB{
+	margin: auto;
+	margin-top: 10px;
+	height: 155px;
+	width: 480px;
+	border: 0.5px solid black;
+
+}
+
+.middle .board .info{
+	float: left;
+}
+
+.middle .info {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.middle .info div{
+	
+	display: inline;
+}
+
+.member {
+	margin-left:50px;
+	margin-right:100px;
+}
+
+.member_b {
+	margin-left: 10px;
+}
+
+.dnm {
+	margin-left: 210px;
+	
+}
+.dnm div{
+	margin-right: 10px;
+}
+
+.middle .emoticon {
+	position: absolute;
+	top: -3px;
+	right: 40%;
+	color: #e6b802;
+}
+
+.right {
+	margin-top: 70px;
+}
+
+.right, .list {
+	width:27%;
+	margin-left: 2%;
+
+}
+
+.list {
+	width:80%;
+	height: 300px;
+	border:1px solid black;
+}
+
+
+footer {
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	background-color: #eee;
+	margin: auto;
+	clear: both;
+}
+
+
+
+footer .footerContent {
+	float: left;
+	width: 998px;
+	height: 50px;
+	/* border: 1px solid black; */
+	text-align: center;
+	
+}
+
+footer .logoName, .personalInfoLaw{
+	float: left;
+	display:inline;
+	margin: 15px 0px 0px 425px;
+}
+
+footer .personalInfoLaw {
+	font-weight: bold;
+	margin-left: 35px;
+}
+
+/********** login.html **********/
+
+.login, .join, .myPage {
+	/* border:1px solid black; */
+	margin-top: 30px;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	clear: both;
+}
+
+.emoticon {
+	position: absolute;
+	top: -3px;
+	right: 43%;
+	color: #e6b802;
+}
+
+.login_board {
+	margin: auto;
+	width: 310px;
+	height: 100px;
+	clear: both;
+	
+	/* border: 1px solid black; */
+}
+
+.login {
+	margin-bottom: 10px;
+}
+
+.login_board .login > .login_logo, .login_input {
+	display: inline;
+	/* float:left; */
+	margin: 10px 10px 15px 25px;
+	/* border:1px solid black; */
+	
+}
+
+.login_board .login_p > .login_logoP, .login_inputP {
+	display: inline;
+	/* float:left; */
+	margin: 10px 10px 10px 25px;
+	/* border:1px solid black; */
+}
+
+.login_inputP {
+	margin-left: 9px;
+}
+
+.login_board > .id > .idName {
+	float: left;
+	margin-right: 26px;
+}
+
+.login_board > .id >.input {
+	float: left;
+	margin-left: 20px;
+}
+.login > .submit{
+
+	float: left;
+	margin: 0px 0px 100px 355px;
+/* 	border:1px solid black; */
+	width: 300px;
+	text-align: center;
+}
+
+/********** join.html **********/
+
+.join > .id > .idName {
+	float: left;
+	margin-right: 26px;
+}
+
+.join > .id > .input {
+	float: left;
+	margin-left: 20px;
+}
+
+.join > .submit{
+
+	float: left;
+	margin: 0px 0px 100px 355px;
+/* 	border:1px solid black; */
+	width: 300px;
+	text-align: center;
+}
+
+
+.join_board {
+	margin: auto;
+	width: 500px;
+	height: 100px;
+	clear: both;
+	/* border: 1px solid black; */
+}
+
+.join .id div{
+	display: inline;
+	float:left;
+	margin: 10px 10px 10px 20px;
+}
+
+.join_board .id {
+	display: inline;
+	float:left;
+	margin: 10px 10px 10px 100px;
+}
+
+/********** myPage.html **********/
+
+.myPage {
+	height: 1000px;
+}
+
+.myPage_board {
+	margin: auto;
+	
+	height: 200px;
+	width: 480px;
+	border: 0.5px solid black;
+}
+
+.myPage_board .board .contentB{
+	margin: auto;
+/* 	margin-top: 10px; */
+	height: 115px;
+	width: 480px;
+	border: 0.5px solid black;
+
+}
+
+.myPage_board .board .info{
+	float: left;
+}
+
+.myPage_board .info {
+/*	margin-left: 5px; */
+	border: 0.5px solid black;
+	height: 39px;
+	width: 480px;
+}
+
+.info .dnm{
+	margin-top: 7px;	
+	margin-left: 380px;
+}
+.info .dnm div{
+	display: inline;
+
+}
+
+
+/********** chat.html **********/
+.chat {
+	margin-top: 50px;
+	height: 800px;
+}
+
+.chat .id div{
+	display: inline;
+	float:left;
+	margin: 10px 10px 10px 20px;
+}
+
+.chat_board {
+	margin: auto;
+	width: 610px;
+	height: 500px;
+	clear: both;
+	border: 1px solid black;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.chat_board .roomName{
+
+	width: 610px;
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+	clear:both;
+
+
+}
+
+.chat_board .roomNameLogo {
+	float: left;
+	width: 100px;
+/* 	border: 1px solid black; */
+	font-size: 20px;
+	display: inline;
+	margin: auto;
+	margin-top: 10px;
+	 
+}
+
+
+.chat_board .roomName .name{
+	float: left;
+	width: 150px;
+	/*border: 1px solid black; */
+	margin: auto;
+	margin-top: 10px;
+	font-size: 20px;
+	display: inline;
+}
+
+
+.chat_board .roomContent {
+	border: 1px solid black;
+	width: 610px;
+	height: 400px;
+}
+
+.chat_board .roomContentSubmit {
+	border: 1px solid black;
+	width: 610px;
+	height: 45px;
+	overflow: auto;
+}
+
+.chat_board .roomContentSubmit div {
+	
+	display: inline;
+	float: left;
+	overflow: auto;
+}
+
+.makeRoomDiv {
+	display: inline;
+	float: right;
+	margin: -502px 60px 0px 0px;
+	/* border: 1px solid black; */
+	width: 270px;
+	
+}
+
+.makeRoom{
+	width: 270px;
+	height: 448px;
+	border: 1px solid black;
+}
+
+.makeRoom .makeRoomNameLogo, .makeRoomname {
+
+	width: 270px;
+	height: 223px;
+	border: 1px solid black;
+}
+
+/********** personalInfoLaw.html **********/
+.personalInfoLaws {
+	margin: auto;
+}
+
+.personalInfoLaws .personalInfoLawContent {
+	text-align: left;
+}
+
+/********** modify.html ************/
+
+.board_modify {
+	
+}
+
+.contentModify {
+	width: 479px;
+	height: 162px;
+	border: 1px solid black;
+}
+
+.infoModify {
+	width: 479px;
+	height: 35px;
+	border: 1px solid black;
+}
+
