@@ -1,1 +1,1 @@
-<h>Using Basicaly HTML, CSS </h>
+<h>Using Basic HTML, CSS </h>
